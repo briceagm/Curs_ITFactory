@@ -12,7 +12,8 @@ class MyFirstTestSuite(unittest.TestCase):
         # In acest obiect, adaugam(prin load) testele din toate clasele pe care vrem sa le rulam
         my_test_suite.addTests([
             unittest.defaultTestLoader.loadTestsFromTestCase(MyFirstTestCase),
-            unittest.defaultTestLoader.loadTestsFromTestCase(JulesTestCase)
+            unittest.defaultTestLoader.loadTestsFromTestCase(JulesTestCase),
+
         ])
         # Facem un test runner HTML, care va genera pentru noi niste rapoarte
         # human-friendly pentru toate testele rulate

@@ -22,7 +22,7 @@ class Person:
         self.inaltime = height
 
     '''
-    Self este un cuvant cheie care reprezinta obiectul la care ne referim la momentul apelariii metodei
+    Self este un cuvant cheie care reprezinta obiectul la care ne referim la momentul apelarii metodei
     '''
     def present_me(self):
         print(f"Salut, eu sunt {self.nume} {self.prenume} si am {self.varsta} ani")

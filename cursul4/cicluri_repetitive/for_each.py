@@ -56,7 +56,7 @@ else:
 
 '''
 For- else
-Atunci cand folosim brek intr=un for, putem avea si o ramura else pentru for, care va fi executate DOAR DACA for-ul a rulat fara sa ajunga deloc la break.
+Atunci cand folosim break intr-un for, putem avea si o ramura else pentru for, care va fi executate DOAR DACA for-ul a rulat fara sa ajunga deloc la break.
 '''
 # Vreau sa printez toate notele muzicale mai putin cele care incep cu 'S'
 print("Notele muzicale care nu incep cu s sunt:")

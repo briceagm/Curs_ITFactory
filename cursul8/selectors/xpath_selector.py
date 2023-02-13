@@ -2,12 +2,12 @@
 XPATH este foarte util atunci cand elementul cautat nu are ID sau clasa/tag unic, si trebuie sa il luam raportandu-ne la alte elemente.
 Dupa ce gasim un alt element apropiat in mod unicat, putem face parcurgere catre elementul care ne intereseaza.
 
-// - descendenti
-/ - copii
-parent- cautare in sus
-siblings - in lateral
+    // - descendenti
+    / - copii
+    parent- cautare in sus
+    siblings - in lateral
 
-CTRL+F (descide casuta ca sa cautam) escape (o inchidem)
+    CTRL+F (descide casuta ca sa cautam) escape (o inchidem)
 """
 
 import time
@@ -19,6 +19,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 
 service = ChromeService(ChromeDriverManager().install())
 chrome = webdriver.Chrome(service=service)
+
 
 chrome.get("https://formy-project.herokuapp.com/form")
 time.sleep(2)
